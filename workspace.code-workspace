@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "../../../../www"
+		},
+		{
+			"path": "../../../remote-server"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"eslint.alwaysShowStatus": true,
+		"eslint.format.enable": true,
+		"git.ignoreLimitWarning": true
+	}
+}

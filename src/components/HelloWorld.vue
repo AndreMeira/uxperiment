@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import TestController from '@/controller/TestController';
 import { useChannel, useObservableProp, useStateUpdate } from '@/adapters/vue';
+import { reactive } from 'vue';
 
 const props = defineProps<{
     msg: string
@@ -25,6 +26,7 @@ const state = useStateUpdate<{
   <div class="hello">
     <h1>{{ state.message }}</h1>
     <p>{{ state.quote }}</p>
+    <p>{{ test?.queue?.join(', ') }}</p>
     <button
         type="button"
         @click="() => controller.publish('generate-quote', null)">
