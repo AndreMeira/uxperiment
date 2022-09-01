@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../andremeira"
+		},
+		{
+			"path": "../../blog"
+		},
+		{
+			"path": "../../deleev-team-leader"
+		},
+		{
+			"path": "../../nuxt-test"
+		},
+		{
+			"path": "../../personal-framework"
+		},
+		{
+			"path": "../../sapper-test"
+		},
+		{
+			"path": "../../sveltekit-realworl-example-app"
+		},
+		{
+			"path": "../../sveltekit-test"
+		},
+		{
+			"path": "../../fitness"
+		},
+		{
+			"path": "../../fitness-test"
+		},
+		{
+			"path": "../../vue3-realworld-example-app"
+		}
+	]
+}
