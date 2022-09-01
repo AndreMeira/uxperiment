@@ -15,6 +15,12 @@ declare type Channel = {
     subscribe: (fn:(payload: ChannelEvent<any>) => void) => Unsubscribe
 };
 
+export interface Output<T extends Record<string, any>>{
+    write: (patch: Partial<T>) => void;
+    update: () => void;
+    state: T;
+}
+
 export {
     Subscriber, Unsubscribe, Observable, GSequence, Channel, ChannelEvent,
 };

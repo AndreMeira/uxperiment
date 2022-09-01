@@ -21,6 +21,9 @@ module.exports = {
     "@typescript-eslint/indent": ["error", 4],
     '@typescript-eslint/no-inferrable-types': "off",
     'react/jsx-filename-extension': 'off',
+    'vue/multi-word-component-names': 'off',
+    'no-spaced-func': 'off',
+    'padded-blocks': ["error", { "classes": "always" }],
     'import/extensions': [
       'error',
       'ignorePackages',
